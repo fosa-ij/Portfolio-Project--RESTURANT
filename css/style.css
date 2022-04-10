@@ -257,21 +257,21 @@ color: #FF8800;
   border-bottom: 2px solid #FF8800;
 }
 .order_section section {
-  padding: 20px 15% 20px 18%;
+  padding: 20px 20%;
 }
 .order_section section img {
  float: left;
- width: 23%;
- margin: 10px 1%;
- height: 30vh;
+ width: 30%;
+ margin: 10px 1.6%;
+ height: 40vh;
  object-fit: cover;
  /* border: 2px dotted #e4a660; */
 }
 
 .time {
   font-size: 2.5rem;
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
   background-color: #f5d3bf2d;
 }
 .time .time1 {
@@ -329,7 +329,7 @@ aside {
   /* margin-top: 24rem; */
   text-align: center;
   padding-bottom: 10rem;
-  padding-top: 10rem;
+  padding-top: 3rem;
   background-color: #D3A79C;
 }
 aside ul {
