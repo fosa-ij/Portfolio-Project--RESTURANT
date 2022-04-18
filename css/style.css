@@ -323,6 +323,11 @@ h5 {
 .videos video {
   width: 30vw;
 }
+iframe
+  {
+    width: 600px; 
+    height: 300px; 
+  }
 
 
 aside {
@@ -564,5 +569,123 @@ header
     {
       color: #FF8800;
       text-decoration: underline;
+    }
+  }
+
+
+
+@media screen and (max-width: 515px){
+.toggleUl
+    {
+      display: block;
+      padding-inline-start: 0px;
+    }
+.toggleLi
+    {
+      width: 30%;
+      margin-right: 0.5rem;
+    }
+.social_icons
+    {
+      margin-top: 10rem;
+      padding-left: 5rem;
+      width: 90%;
+      margin-top: 15rem;
+    }
+.social_icons h1
+    {
+      width: 80%;
+    }
+.form input
+    {
+      width: 55%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+form label
+    {
+      background: #FF8800;
+      color: white;
+      padding: 10px 7px;
+    }
+.first_section > section
+    {
+      width: 90%;
+      position: relative;
+      left: 8%;
+      padding-top: 13rem;
+      font-weight: 500;
+    }
+.order_section div
+    {
+      position: relative;
+      left: 13%;
+      width: 74vw
+    }
+.order_section div ul
+    {
+      padding-inline-start: 0px;
+    }
+.order_section div li
+    {
+       float: left;
+       width: 50%;
+       list-style: none;
+       margin-top: 4rem;
+    }
+.order_section ul a
+    {
+      text-decoration: none;
+      color: black;
+      font-size: 2.8rem;
+      padding-bottom: 15px;
+    }
+.order_section section
+    {
+      padding: 40px 6%;
+    }
+.order_section section img
+    {
+      float: left;
+      width: 100%;
+      margin-top: 1.2rem;
+      height: 40vh;
+      object-fit: cover;
+    }
+.time
+    {
+      font-size: 2.5rem;
+      padding-top: 10rem;
+      padding-bottom: 2rem;
+      background-color: #f5d3bf2d
+    }
+.fa-phone
+    {
+      margin-bottom: 2rem;
+      border: 1px solid #FF8800;
+      border-radius: 100%;
+      font-size: 3.3rem;
+    }
+.time2
+    {
+      display: flex;
+      flex-basis: 40%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+aside p
+    {
+      width: 70%;
+      margin: 2rem auto;
+    }
+iframe 
+    {
+      height: 240px;
+      width: 400px;
+    }
+.toggleNavbarHidden
+    {
+      display: none;
     }
 }
