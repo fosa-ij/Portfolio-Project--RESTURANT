@@ -381,6 +381,10 @@ TOGGLE STYLES
   {
     display: none;
   }
+.toggleNavbar 
+  {
+    display: none;
+  }
 
 
 
@@ -509,8 +513,56 @@ section.first_section::after
       z-index: -1;
     }
 section.first_section p 
-      {
+    {
         font-weight: 600;
-      }
+    }
+.order_section div
+    {
+      position: relative;
+      left: 17%;
+      width: 60vw;
+    }
+.order_section section
+    {
+      padding: 20px 5%;
+    }
 
-  }
+  
+.toggleNavbarHidden 
+    {
+      display: block;
+    }
+.toggleNavbar
+    {
+      position: absolute;
+      top: -16px;
+      left: 0;
+      width: 60vw;
+      z-index: 2;
+      background-color: #D3A79C;
+      height: 100%;
+      padding-inline-start: 0;
+      text-align: center;
+    }
+header 
+    {
+      position: relative;
+    }
+.toggleNavbar li 
+    {
+      margin: 4rem 0;
+      padding: 2rem 2rem;
+    }
+.toggleNavbar li a 
+    {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+.toggleNavbar li a:hover
+    {
+      color: #FF8800;
+      text-decoration: underline;
+    }
+}
