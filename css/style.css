@@ -272,7 +272,7 @@ color: #FF8800;
   font-size: 2.5rem;
   padding-top: 8rem;
   padding-bottom: 10rem;
-  background-color: #f5d3bf2d;
+  background-color: whitesmoke;
 }
 .time .time1 {
   text-align: center;
@@ -333,9 +333,10 @@ iframe
 aside {
   /* margin-top: 24rem; */
   text-align: center;
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
   padding-top: 3rem;
-  background-color: #D3A79C;
+  background-color: #000;
+  color: white;
 }
 aside ul {
   display: flex;
@@ -378,7 +379,39 @@ aside img {
   height: 200px;
 }
 
-
+footer {
+  background-color: #000;
+  text-align: center;
+  color: white;
+  /* max-height: 400px; */
+}
+footer hr {
+  width: 70%;
+  height: 2px;
+  color: white;
+  background-color: white;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+}
+footer p {
+  margin: 40px 0;
+}
+footer ul {
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+footer li {
+  list-style: none;
+  margin: 5px 15px;
+}
+footer li a {
+  color: white;
+  text-decoration: none;
+}
 /*******************************************
 TOGGLE STYLES
 ********************************************/
