@@ -649,7 +649,10 @@ aside
     {
       padding-bottom: 6rem;
     }
-  }
+.time2 div {
+      margin: 5rem 7rem;
+}
+}
 
 
 
@@ -778,6 +781,29 @@ div li:nth-of-type(5)
     {
       width: 100%;
     }
+    .time span {
+      word-spacing: 2px;
+  }
+.time2 div {
+    margin: 3rem 0rem;
+    text-align: center;
+}
+.time2 {
+  margin: 1rem 0 0 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 1px;
+  overflow: visible;
+  border: 1px solid black;
+  background-color: black;
+  width: 45%;
+}
+.videos {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 8rem 0;
+}
 }
 
 @media screen and (max-width: 426px) {
@@ -833,27 +859,4 @@ div li:nth-of-type(5)
       margin: 1.2rem 0 0 0;
       height: 400px;
     }
-.time span {
-      word-spacing: 2px;
-  }
-.time2 div {
-    margin: 3rem 0rem;
-    text-align: center;
-}
-.time2 {
-  margin: 1rem 0 0 0;
-}
-hr {
-  box-sizing: content-box;
-  height: 1px;
-  overflow: visible;
-  border: 1px solid black;
-  background-color: black;
-  width: 45%;
-}
-.videos {
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0 8rem 0;
-}
 }
