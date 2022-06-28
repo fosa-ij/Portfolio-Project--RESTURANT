@@ -840,6 +840,9 @@ div li:nth-of-type(5)
     margin: 3rem 0rem;
     text-align: center;
 }
+.time2 {
+  margin: 1rem 0 0 0;
+}
 hr {
   box-sizing: content-box;
   height: 1px;
